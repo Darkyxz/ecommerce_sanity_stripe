@@ -81,7 +81,7 @@ const ProductDetails = ({ product, products }) => {
   )
 }
 
-export const getStaticPat hs = async () => {
+export const getStaticPaths = async () => {
   const query = `*[_type == "product"] {
     slug {
       current
