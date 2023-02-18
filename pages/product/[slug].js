@@ -95,7 +95,7 @@ export const getStaticPaths = async () => {
     params: { 
       slug: product.slug.current
     }
-  }));
+  }))
 
   return {
     paths,
